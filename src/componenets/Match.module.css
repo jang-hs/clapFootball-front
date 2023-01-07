@@ -1,0 +1,105 @@
+.list--match-schedule--item {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+
+.list--match-schedule__time {
+    width: 15%;
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+}
+
+.list--match-schedule__info {
+    width: 62%;
+    padding-right: 10px;
+}
+
+.list--match-schedule__info h3 {
+    font-size: 14px;
+    font-weight: 400;
+    word-break: keep-all;
+}
+
+.list--match-schedule__status {
+    width: 20%;
+}
+
+.match-status {
+    width: 100%;
+    text-align: center;
+    padding: 8px 5px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.match-status.isHurry {
+    color: white;
+    background-color: #FF4D37;
+}
+
+.match-status.isOpen {
+    color: white;
+    background-color: #1570FF;
+}
+
+.match-status.isFull {
+    color: #ccc;
+    background-color: #EEEEEE;
+}
+
+.match--option {
+    display: flex;
+    align-items: center;
+}
+
+.match--option:before {
+    content: '';
+    background-color: #3534a5;
+    width: 3px;
+    height: 5px;
+    border-radius: 5px;
+    margin-right: 3px;
+    margin-top: -2px;
+}
+
+.label--match-option {
+    font-size: 11px;
+    color: #999;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.label--match-option span {
+    padding-right: 3px;
+}
+
+.label--match-option span:before {
+    padding-right: 3px;
+}
+
+.match--option.isMen:before,
+.match--option.isMix:before,
+.match--option.isWomen:before {
+    content: '';
+}
+
+.match--option.isWomen:before {
+    background-color: #FF5D5D;
+}
+
+.match--option.isMen:before {
+    background-color: #3534a5;
+}
+
+.match--option.isMix:before {
+    background-color: #FFC645;
+}

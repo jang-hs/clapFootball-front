@@ -1,0 +1,180 @@
+.container {
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    zoom: 1;
+    height: 100%;
+}
+.input_wrap {
+    display: initial;
+}
+
+.btn_wrap {
+    padding:15px;
+}
+
+.login_text {
+    margin: 15px 0;
+    width: 100%;
+    text-align: center;
+}
+.login_text span {
+    width: 48%;
+    display: inline-block;
+}
+
+.div_kakao {
+    background-color: #FEE500;
+    border-radius: 10px;
+    padding: 15px 0px;
+    margin: 30px 30px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.inner {
+    max-width: 480px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.innerContainer {
+    padding: 20px;
+    overflow: auto;
+    position: relative;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.headMessage {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.headMessage h2 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+.headMessage .hlt {
+    color: #2139B2;
+    font-weight: 700;
+}
+
+input {
+    padding: 15px 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    outline: none;
+    background-color: #fafafa;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 16px;
+    color: #222836;
+}
+
+.inputWrap {
+    margin: 5px 0;
+    width: 100%;
+    overflow: auto;
+    /* display: flex; */
+    align-items: center;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+form label {
+    font-size: 11px;
+    text-align: left;
+    display: block;
+    margin: 10px 0 3px 5px;
+}
+
+.inputWrap input {
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    height: 48px;
+    line-height: 48px;}
+
+.inputDWrap {
+    overflow: auto;
+    margin: 5px 0;
+    display: inline-block;
+    width: 100%;
+}
+.innerContainer span {
+    font-size: 13px;
+    color: #3E5463;
+    text-align: center;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+.inputWrap50:first-child {
+    margin-right: 1%;
+}
+
+.inputWrap50 {
+    width: 49%;
+    float: left;
+}
+
+input.inputFull, select.inputFull {
+    width: 100%;
+}
+.inputWrap50:first-child {
+    margin-right: 1%;
+}
+.inputWrap50:nth-child(2) {
+    margin-left: 1%;
+}
+.btnWrap {
+    margin-top: 20px;
+}
+
+.btn.submit {
+    background-color: #1570FF;
+    width: 100%;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 20px auto;
+}
+
+.btn {
+    width: 100%;
+    background-color: #3540A5;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    box-shadow: none;
+    padding: 15px 10px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}

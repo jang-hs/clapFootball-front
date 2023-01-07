@@ -1,0 +1,31 @@
+.container {
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    zoom: 1;
+    height: 100%;
+}
+
+.loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+.list__match_schedule__container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.list--match-schedule--item .list--match-schedule__info {
+    width: 80%;
+}
+
+@media (min-width: 1024px) {
+    .list--match-schedule--item a {
+        padding: 15px;
+    }
+}
